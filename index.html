@@ -5,39 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Basic form design</title>
+    <title>Calculator</title>
 </head>
 <body>
     
-    <form class="form"  action="">
 
-        <h2>Register</h2>
-        <input type="text" placeholder="Enter Your First Name" name="fnam" required>
-        <input type="text" placeholder="Enter Your Last Name" name="lnam" required>
-        <input type="email" placeholder="Enter Your Email" name="mail" required>
+    <div class="cal">
+      
+        <input type="text" class="display" readonly>
+        
+        <div class="btns">
+          
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button>/</button>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button>*</button>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>-</button>
+        <button>0</button>
+         <button>AC</button>
+        <button>=</button>
+        <button>+</button>
+          </div>
+        
+      
+      </div>
 
-        <select  id="" name="country" required>
-            <option selected>Select One</option>
-            <option value="Bangladesh">Bangladesh</option>
-            <option value="India">India</option>
-            <option value="Malaysia">Malaysia</option>
-        </select>
-
-        <textarea  id="" placeholder="Enter Your Address" name="address" required></textarea>
-
-        <button name="btn">Submit</button>
-    </form>
 
 
+<script src="script.js">
 
+</script>
 
-
-
-
-
-
-    <script src="index.js">
-
-    </script>
 </body>
 </html>
