@@ -1,40 +1,27 @@
-body{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.clock{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
+}
+
+.part{
+    width: 160px;
+    padding: 25px;
+    text-align: center;
+    background-color: coral;
+    color: #fff;
+    margin-right: 20px;
+    border-radius: 7px;
     
-  }
-  .display{
-    padding: 15px;
-    width: 90%;
-    font-size: 20px;
-    outline: none;
-    border-radius: 10px;
-    margin-bottom: 10px;
-  }
-  
-  .cal{
-    background-color: rgb(81, 52, 52);
-    padding: 10px;
-    border-radius: 10px;
-  }
-  
-  .btns{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap:6px;
-    
-  }
-  
-  .btns button{
-    padding: 8px;
-    border-radius: 6px;
-    border: none;
-    font-size: 20px;
-    border-radius: 50%;
-    background-color: rgb(25, 134, 134);
-    color: chartreuse;
-    font-size: 20px;
-  }
-  
+}
+body{
+    background-color: gray;
+}
